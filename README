@@ -1,0 +1,36 @@
+# Aurora.AI — small assignment deliverables
+
+
+This repository contains a single-section landing page (semantic HTML + external CSS) built to the spec. The headline uses pure CSS animations (keyframes) — a wavy gradient and a subtle float. No JS frameworks, no external CSS libraries.
+
+
+## Files
+- `index.html` — semantic HTML markup
+- `style.css` — external stylesheet containing all styles and animations
+
+
+## Deploy quickly
+
+
+### Netlify (drag & drop)
+- Create a folder, place `index.html` and `style.css` inside.
+- Zip the folder or leave it.
+- Sign in to Netlify and use the Sites -> Add new site -> "Deploy manually" -> Drag & drop the folder/zip.
+- After deployment, Netlify will give you a live link. Submit that link.
+
+
+### Vercel (CLI or web)
+- Option A (web): Create a new project, import from GitHub after pushing the files to a repo.
+- Option B (quick): Install Vercel CLI, run `vercel` in the folder and follow prompts. The CLI will return a live URL.
+
+
+## Evaluation checklist
+- Semantic HTML: headings, nav, main, section, footer are used.
+- External CSS used: `style.css`.
+- Animation: `@keyframes` — waveGradient, floatText, glitch, orbit, shoot.
+- No external libraries used.
+
+
+## Small notes
+- To edit copy or colors, open `style.css` and tweak the variables at the top.
+- Want me to deploy it for you? I can't access your account but I can give exact commands or a ready-to-upload ZIP if you want.

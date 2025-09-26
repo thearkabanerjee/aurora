@@ -1,0 +1,89 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aurora.AI — Your Night‑Sky Companion</title>
+  <meta name="description" content="Aurora.AI: an imaginative startup that brings the night sky to your doorstep with friendly AI-guided star tours." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <nav class="nav" aria-label="Main navigation">
+      <div class="brand">Aurora.AI</div>
+      <ul class="nav-list">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#join" class="cta">Join Waitlist</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+      <div class="hero-inner">
+        <h1 id="hero-heading" class="hero-title">
+          <span class="wave">Aurora</span><span class="dot">.AI</span>
+        </h1>
+        <p class="hero-sub">A friendly AI that reads the night for you — personalized star tours, constellations explained in plain language, and reminders for cosmic events.</p>
+        <form class="hero-form" action="#join" onsubmit="event.preventDefault(); window.location='#join'">
+          <label for="email" class="visually-hidden">Email for waitlist</label>
+          <input id="email" type="email" placeholder="your email" required>
+          <button type="submit">Join Waitlist</button>
+        </form>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit">
+          <div class="planet core"></div>
+          <div class="planet p1"></div>
+          <div class="planet p2"></div>
+          <div class="shooting">✦</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">What Aurora.AI does</h2>
+      <ul>
+        <li>
+          <h3>Personalized Sky Tours</h3>
+          <p>Tell Aurora your location and mood — it narrates a 5-minute stargazing story built just for you.</p>
+        </li>
+        <li>
+          <h3>Event Alerts</h3>
+          <p>Never miss a meteor shower or a close-approach — smart notifications tuned to your schedule.</p>
+        </li>
+        <li>
+          <h3>Friendly Explanations</h3>
+          <p>Complex astronomy made human: why Jupiter looks bright, what a retrograde is, and why the Moon wobbles.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="how" class="how" aria-labelledby="how-heading">
+      <h2 id="how-heading">How it works</h2>
+      <ol>
+        <li>Enter your location and preference.</li>
+        <li>Aurora composes a short guided tour using curated astronomy facts.</li>
+        <li>Receive audio/text tour and optional calendar reminders for events.</li>
+      </ol>
+    </section>
+
+    <section id="join" class="join" aria-labelledby="join-heading">
+      <h2 id="join-heading">Launch waitlist</h2>
+      <p>We’re doing a soft launch. Join the first explorers and get exclusive early access.</p>
+      <form class="join-form" action="#" onsubmit="event.preventDefault(); alert('Thanks — you\'re on the list!')">
+        <input type="email" placeholder="email@you.com" required>
+        <button type="submit">Notify me</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <time datetime="2025">2025</time> Aurora.AI - Built with ❤️ for the IIT BOMBAY TECHFEST 2025.</p>
+  </footer>
+
+</body>
+</html>
+
